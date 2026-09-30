@@ -1,5 +1,4 @@
 a = int(input("Enter your first number: "))
 b = int(input("Enter your second number: "))
-
-c = a + b
-print(c)
+a,b = b,a
+print("After swapping: a =", a, "b =", b)
